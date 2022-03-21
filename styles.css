@@ -1,24 +1,25 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.rating{
+.rating {
   user-select: none;
 }
-.star{
+.star {
   font-size: 3rem;
-  color: #ff9800 ;
-  background-color: unset ;
+  color: #ff9800;
+  background-color: unset;
   border: none;
 }
 
-.star:hover{
+.star:hover {
   cursor: pointer;
 }
